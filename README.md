@@ -41,6 +41,23 @@ To use this bot, you need to set your configuration in `config.json` :
 cp config.json.dist config.json
 ```
 
+List of gameserver types :
+
+* ark  
+* team-fortress-2
+* counter-strike-global-offensive
+* counter-strike-source
+* counter-strike-condition-zero
+* counter-strike-1-6
+* day-of-defeat-source
+* day-of-defeat-1-3
+* starbound
+* bungeecord
+* star-made
+* minecraft  
+* left-4-dead-2
+* garry-s-mod
+
 # Usage
 
 ```
