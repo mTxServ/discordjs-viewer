@@ -25,6 +25,7 @@ const getAccessToken = function(params, callback) {
         {
             url: oauthTokenUrl + querystring.stringify(params),
             json: true,
+            followRedirect: false,
         },
         function(error, response, body) {
             if (
@@ -79,7 +80,6 @@ client.on('message', msg => {
             {
                 url: viewerApiUrl + '&access_token=' + accessToken,
                 json: true,
-                followRedirect: false,
             },
             function(error, response, body) {
                 if (null !== error || response.statusCode !== 200) {
