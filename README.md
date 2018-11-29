@@ -51,7 +51,6 @@ List of gameserver types :
 * counter-strike-1-6
 * day-of-defeat-source
 * day-of-defeat-1-3
-* starbound
 * bungeecord
 * star-made
 * minecraft  
