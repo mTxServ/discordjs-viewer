@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mTxServ/discordjs-viewer#readme",
   "dependencies": {
-    "ajv": "6.6.0",
+    "ajv": "6.12.3",
     "asn1": "0.2.4",
     "assert-plus": "1.0.0",
     "async-limiter": "1.0.0",
